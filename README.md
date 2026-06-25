@@ -26,15 +26,15 @@ This project focuses on predicting whether a patient is likely to have diabetes 
 - Outcome (Diabetic / Non-Diabetic)
 
 ## Project Workflow
--- Data Preprocessing
+1.Data Preprocessing
 - Handled missing and invalid values.
 - Treated outliers and skewed distributions.
 - Prepared data for machine learning algorithms.
--- Exploratory Data Analysis (EDA)
+2.Exploratory Data Analysis (EDA)
 - Analyzed feature distributions.
 - Identified correlations between variables.
 - Created visualizations to uncover insights.
--- Model Development
+3.Model Development
 
 Implemented and compared:
 
@@ -42,10 +42,10 @@ Implemented and compared:
 - K-Nearest Neighbors (KNN)
 - Decision Tree Classifier
 - Random Forest Classifier
--- Hyperparameter Tuning
+4.Hyperparameter Tuning
 - Used GridSearchCV to optimize model parameters.
 - Improved model performance through systematic tuning.
--- Model Evaluation
+5.Model Evaluation
 
 Evaluated models using:
 
@@ -55,7 +55,7 @@ Evaluated models using:
 - F1-Score
 - ROC-AUC Score
 - Confusion Matrix
--- Technologies Used
+## Technologies Used
 # Python
 # Pandas
 # NumPy
